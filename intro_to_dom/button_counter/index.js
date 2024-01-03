@@ -9,6 +9,7 @@ countText.textContent = num;
 incButton.addEventListener("click", () => {
     num++;
     countText.textContent = num;
+    // alert("Boom!");
 
 });
 decButton.addEventListener("click", () => {
