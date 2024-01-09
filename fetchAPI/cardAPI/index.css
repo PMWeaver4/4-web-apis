@@ -1,0 +1,46 @@
+body {
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Calibri;
+  }
+  
+  #card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #card-remaining {
+    font-size: 3em;
+    text-shadow: 0.1em 0.1em 0.1em black;
+    color: white;
+  }
+  #card-image {
+    opacity: 0;
+    width: 53em;
+    margin: 0;
+    height: 23em;
+    transition: all ease-in-out 130ms;
+    object-fit: cover;
+    filter: drop-shadow(1em 1em 1em black);
+    margin-bottom: 2em;
+  }
+  
+  #card-button {
+    z-index: 0;
+    padding: 0.4em;
+    border-radius: 0.3em;
+    text-shadow: 0.1em 0.1em 0.1em white;
+    font-size: 1.6em;
+  }
+  
+  #card-button:hover {
+    text-shadow: 0.1em 0.1em 0.1em black;
+    border-radius: 0.3em;
+    color: white;
+    background-color: rgba(200, 200, 200, 0.7);
+    cursor: pointer;
+    transition: all ease-in-out 0.3s;
+  }
